@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +10,12 @@
     <!-- Fontawesome website script to enable fonts -->
     <script src="https://kit.fontawesome.com/7264dcfac4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
-             <nav>
-                <img src="images/logo.png" class= "logo" alt="logo">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
                 <ul>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -37,7 +39,9 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quas doloremque totam ipsum maxime fugit dolorem animi ea possimus ex dolores nulla illum repudiandae error nostrum, in laboriosam minus quis!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quas doloremque totam ipsum maxime
+                        fugit dolorem animi ea possimus ex dolores nulla illum repudiandae error nostrum, in laboriosam
+                        minus quis!</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -59,7 +63,8 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2020 - 2024</span><br>B.E. in Artificia Intelligence and Data Science from Fr.Conceicao Rodrigues College of Engineering</li>
+                            <li><span>2020 - 2024</span><br>B.E. in Artificia Intelligence and Data Science from
+                                Fr.Conceicao Rodrigues College of Engineering</li>
                             <!-- <li><span>Data Scientist</span><br>Curating the data for ML models</li>
                             <li><span>Data Analyst</span><br>Understanding insights from data</li> -->
                         </ul>
@@ -76,19 +81,25 @@
                 <div>
                     <i class="fa-solid fa-brain"></i>
                     <h2>AI/ML Apps</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis atque porro cumque voluptatem earum sapiente dolore laborum veniam, dolorum maiores! Praesentium assumenda architecto voluptate atque? Minus assumenda repellendus explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis atque porro cumque
+                        voluptatem earum sapiente dolore laborum veniam, dolorum maiores! Praesentium assumenda
+                        architecto voluptate atque? Minus assumenda repellendus explicabo.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-magnifying-glass-chart"></i>
                     <h2>Data Analysis</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis atque porro cumque voluptatem earum sapiente dolore laborum veniam, dolorum maiores! Praesentium assumenda architecto voluptate atque? Minus assumenda repellendus explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis atque porro cumque
+                        voluptatem earum sapiente dolore laborum veniam, dolorum maiores! Praesentium assumenda
+                        architecto voluptate atque? Minus assumenda repellendus explicabo.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-table"></i>
                     <h2>Data Science</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis atque porro cumque voluptatem earum sapiente dolore laborum veniam, dolorum maiores! Praesentium assumenda architecto voluptate atque? Minus assumenda repellendus explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis atque porro cumque
+                        voluptatem earum sapiente dolore laborum veniam, dolorum maiores! Praesentium assumenda
+                        architecto voluptate atque? Minus assumenda repellendus explicabo.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
@@ -111,7 +122,8 @@
                     <img src="images/logo.png" alt="Image">
                     <div class="layer">
                         <h3>GoIdento</h3>
-                        <p>A project to identify academically weak students based on comprehensive parameters and group them into clusters for guidance.</p>
+                        <p>A project to identify academically weak students based on comprehensive parameters and group
+                            them into clusters for guidance.</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
@@ -119,7 +131,8 @@
                     <img src="images/logo.png" alt="Image">
                     <div class="layer">
                         <h3>ScanGenius</h3>
-                        <p>A webapp to assess image quality for processing through Amazon Textract, utilising parameters such as BRISQUE</p>
+                        <p>A webapp to assess image quality for processing through Amazon Textract, utilising parameters
+                            such as BRISQUE</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
@@ -153,18 +166,18 @@
             </div>
         </div>
         <div class="copyright">
-             <p>Copyright C Edryn</p>
+            <p>Copyright C Edryn</p>
         </div>
     </div>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
@@ -172,4 +185,40 @@
         }
     </script>
 </body>
+
 </html>
+
+
+<!-- ----------------about-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/take2.jpg" alt="a picture of me">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quas doloremque totam ipsum maxime
+                    fugit dolorem animi ea possimus ex dolores nulla illum repudiandae error nostrum, in laboriosam
+                    minus quis!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>AI/ML</span><br>Creating Machine learning models</li>
+                        <li><span>Data Science</span><br>Curating the data for ML models</li>
+                        <li><span>Data Analysis</span><br>Understanding insights from data</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Present</span><br>Associate Software Developer at BNP Paribas</li>
+                        <li><span>2023 - 2024</span><br>Software Development Intern at 1Accord</li>
+                        <li><span>2022 - 2023</span><br>Senior Member at Team Vaayushastra</li>
+                    </ul>
+                </div>
+
+                <h1>insert some text</h1>
